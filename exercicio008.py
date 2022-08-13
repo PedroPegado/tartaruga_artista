@@ -11,11 +11,13 @@ import random
 
 turtle = turtle.Turtle()
 
-colors = ['purple', 'blue', 'yellow', 'green', 'pink']
-for _ in range (8):
+colors = ['purple', 'blue', 'yellow', 'green', 'pink', 'orange', 'black', 'pink', 'light blue']
+turtle.pensize(5)
+
+for _ in range (12):
     color = random.choice(colors)
     turtle.color(color)
     turtle.forward(100)
     turtle.backward(100)
-    turtle.right(45)
+    turtle.right(30)
 

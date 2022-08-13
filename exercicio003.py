@@ -10,9 +10,15 @@ Exercícios
 import turtle
 
 turtle = turtle.Turtle()
-turtle.pensize(5)
+turtle.pensize(10)
+turtle.shape('arrow')
 
-for color in ['blue', 'black', 'red', 'pink']:
+for color in ['red', 'blue', 'pink', 'black']:
+    turtle.color(color)
+    turtle.forward(100)
+    turtle.right(90)
+turtle.forward(100)
+for color in ['red', 'blue', 'pink', 'black']:
     turtle.color(color)
     turtle.forward(100)
     turtle.right(90)
